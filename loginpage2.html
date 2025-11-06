@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head><br><br><br><br><br><br><br><br>
+  <title>Login Page</title>
+  <style>
+    .color-name {
+      color: red;
+    }
+    .hex-code {
+      color: #00ff00;
+    }
+    .rgb-code {
+      color: rgb(0, 0, 255);
+    }
+    .rgba-code {
+      color: rgba(255, 0, 0, 0.5);
+    }
+    .hsl-code {
+      color: hsl(120, 100%, 50%);
+    }
+    body {
+      height: 100vh; 
+      background-position: center 50%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      transform: rotate(0.5deg);
+    }
+    .text-style {
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: underline;
+      text-align: center;
+    }
+    .box-model {
+      width: 300px;
+      background-color: lightblue;
+      border: 5px solid navy;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input {
+      padding: 8px;
+    }
+    button {
+      padding: 8px;
+      cursor: pointer;
+    }
+    .password-label {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="text-style">Login Page</div>
+  <div class="box-model">
+    <form>
+      <label class="color-name">Username:</label>
+      <input type="text" name="username">
+      <label class="password-label">Password:</label>
+      <input type="password" name="password">
+      <button type="submit" class="rgb-code">Login</button>
+    </form>
+  </div>
+</body>
+</html>
